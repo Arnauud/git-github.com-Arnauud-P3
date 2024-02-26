@@ -1,6 +1,6 @@
 
 :root {
-    /* Polie coding  */
+    /* Police coding  */
     --titlelogo-font-family: shrikhand;
     --text-font-family: Roboto;
 
@@ -8,5 +8,105 @@
     --primary-color: #9356DC; 
     --secondary-color: #FF79DA; 
     --third-color: #99E2D0;
+    --fourth-color: #008766;
+    --fifth-color: #89C8FA;
+    --six-color:#003A68;
+    --seventh-color: #9356DC;
+}
 
+body {
+    display: block;
+    max-width: 1440px;
+
+}
+
+
+/**** Header part ****/
+
+header {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#logo-header{
+    display:flex;
+    justify-content: center;
+    width: 200px;
+    height:34.2px;
+    margin: 50px 0 50px 0;
+}
+
+.location{
+    display: flex;
+    width: 100%;  /* there are no margin*/ 
+    background-color:#EAEAEA;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-family: var(--text-font-family);
+}
+
+.fa-solid {
+    padding-right: 20px;
+}
+
+/**** Exploration section *****/
+.explore {
+    font-family: var(--text-font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;    
+}
+
+.explore h1{
+    font-size: 40px;
+    font-weight: 700;   
+}
+
+.explore p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-explore{
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+    linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    color: white;
+    width: 218px;
+}
+
+.btn-explore:hover{
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+
+/**** Filter section ****/
+.filter 
+
+
+h3 {
+    font-family: var(--text-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.button-fonction{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.btn-f {
+    background: #F6F6F6;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    width: 322.49px;
+    height: 72.38px;
+    border-radius: 20px;
+    font-family: var(--text-font-family);
+    font-size: 16px;
+    font-weight: 500;
 }

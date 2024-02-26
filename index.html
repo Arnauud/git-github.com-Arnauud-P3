@@ -1,11 +1,45 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oh my food!</title>
-    <link rel="icon" type="./" href="./assets/images/logo/ohmyfood.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="./" href="./assets/images/logo/ohmyfood@2x.svg">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <h1>Testing</h1>
+  <div class=main-container>
+    <header>
+        <img src="./assets/images/logo/ohmyfood.png" alt="logo" id="logo-header">
+        <div class="location"><i class="fa-solid fa-location-dot"></i><span>Paris, Belleville</span></div>
+    </header>
+  <main>
+    <section class="explore">
+      <!-- CTA section -->
+      <h1>Réservez le menu qui vous convient</h1><br>
+      <p>Découvrez des restaurants d’exception, sélectionnés par nos soins.</p>
+      <button class="btn-explore">Explorer nos restaurants</button>
+    </section>
+    <section class="filter">
+      <!-- filter section with 3 buttons -->
+      <h3>Fonctionnement</h3>
+      <div class="button-fonction">
+        <button class="btn-f choisir"><i class="fa-sharp fa-solid fa-circle-1"></i><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</button>
+        <button class="btn-f composer"><i class="fa-sharp fa-solid fa-circle-2"></i><i class="fa-solid fa-list"></i>Composez votre menu</button>
+        <button class="btn-f deguster"><i class="fa-solid fa-3"></i><i class="fa-solid fa-store"></i>Dégustez au restaurant</button>
+      </div>
+    </section>
+    <section>
+      <!-- Restaurant Display avec 4 offres -->
+    </section>
+  </main>
+  <!-- <footer></footer> -->
+  </div>
   </body>
 </html>
