@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
             integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./SASS/file.scss">
+    <link rel="stylesheet" href="./SASS/main.css">
   </head>
   <body>
   <div class=main-container>
@@ -24,7 +23,7 @@
     <section class="explore">
       <!-- CTA section -->
       <h1>Réservez le menu qui vous convient</h1><br>
-      <p>Découvrez des restaurants d’exception, sélectionnés par nos soins.</p>
+      <h2>Découvrez des restaurants d’exception, sélectionnés par nos soins.</h2>
       <button class="btn-explore">Explorer nos restaurants</button>
     </section>
     <section class="filter">
@@ -39,10 +38,33 @@
     </section>
     <section>
       <!-- Restaurant Display avec 4 offres -->
-      <article></article>
+      <div class="vendors">
+        <h3>Restaurant</h3>
+        <article>
+          <div class="vendor-pic"> 
+            <img src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant table">
+            <div class="tag"></div> <!-- need to add 'nouveau' tag - as an image?-->
+          </div> 
+          <div class="vendor-text">
+            <div class="vendor-title">La palette du goût</div>
+            <div class="vendor-description">Ménilmontant</div>
+            <button class="vendor-favorite"><i class="fa-regular fa-heart"></i></button>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
-  <!-- <footer></footer> -->
+  <footer>
+    <div class="bottom-box">
+      <img src="./assets/images/logo/ohmyfood@2x.svg" alt="footer-logo">
+      <i class="fa-solid fa-utensils"></i><span>Proposer un restaurant</span>
+      <i class="fa-solid fa-handshake-angle"></i><p>Devenir partenaire</p>
+      <p>Mentions Légales</p>
+      <p>Contact</p>
+
+    </div>
+
+  </footer>
   </div>
   </body>
 </html>

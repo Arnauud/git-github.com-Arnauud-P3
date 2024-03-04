@@ -1,0 +1,17 @@
+@import '../abstracts/variables';
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    text-align: center;
+        h1{
+            font-size: $font-size-title;
+            font-weight: $font-weight-title;   
+    }
+        h2{
+            font-size: $font-size-h2;
+            font-weight: $font-weight-h2;
+    }
+}

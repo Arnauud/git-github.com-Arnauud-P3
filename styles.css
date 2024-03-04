@@ -14,12 +14,6 @@
     --seventh-color: #9356DC;
 }
 
-body {
-    display: block;
-    max-width: 1440px;
-
-}
-
 
 /**** Header part ****/
 
@@ -84,10 +78,7 @@ header {
 }
 
 /**** Filter section ****/
-.filter 
-
-
-h3 {
+.filter h3 {
     font-family: var(--text-font-family);
     font-size: 24px;
     font-weight: 700;

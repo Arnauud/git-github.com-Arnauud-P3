@@ -1,1 +1,154 @@
-/*# sourceMappingURL=main.css.map */
+/* is there not a better way to write this?*/
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+.explore h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.explore h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/**** Exploration section *****/
+.btn-explore {
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  color: white;
+  width: 218px;
+  margin-bottom: 20px;
+  border: none;
+}
+.btn-explore:hover {
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+
+/**** Function buttons ****/
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+.filter h3 {
+  max-width: 100%;
+}
+.filter .button-fonction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.filter .button-fonction i {
+  color: #9356DC;
+}
+.filter .button-fonction .btn-f {
+  background: #F6F6F6;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  width: 322.49px;
+  height: 72.38px;
+  border-radius: 20px;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border: none;
+  align-items: center;
+}
+
+/**** Filter buttons ****/
+footer {
+  background-color: #353535;
+}
+
+.bottom-box {
+  padding: 22px, 25px, 22px, 25px;
+}
+.bottom-box .img {
+  color: white;
+}
+.bottom-box i p {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/** Restaurant Display **/
+.vendors {
+  background: #F6F6F6;
+  margin: 20px 0 20px 0;
+}
+.vendors article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vendors article .vendor-pic {
+  width: 90%;
+}
+.vendors article .vendor-pic img {
+  height: 176px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.vendors article .vendor-text {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 75px;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.vendors article .vendor-text .vendor-title {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 5px;
+}
+.vendors article .vendor-text .vendor-description {
+  font-size: 17px;
+  font-weight: 300;
+  padding: 5px 5px;
+}
+.vendors article .vendor-text .vendor-favorite {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border: none;
+}
+.vendors article .vendor-text .vendor-favorite i {
+  width: 22px;
+  height: 21px;
+}
+
+/**** Header Section ****/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header #logo-header {
+  justify-content: center;
+  width: 200px;
+  height: 34.2px;
+  margin: 50px 0 50px 0;
+}
+header .location {
+  display: flex;
+  width: 100%; /* there are no margin*/
+  background-color: #EAEAEA;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-family: var(--text-font-family);
+}
+
+.fa-solid {
+  padding-right: 20px;
+}/*# sourceMappingURL=main.css.map */
