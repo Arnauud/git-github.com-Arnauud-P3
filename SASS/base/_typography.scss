@@ -9,9 +9,16 @@
         h1{
             font-size: $font-size-title;
             font-weight: $font-weight-title;   
+            margin-top: 30px;
     }
         h2{
             font-size: $font-size-h2;
             font-weight: $font-weight-h2;
+            margin-top: 30px;
     }
+}
+
+h3 {
+    font-size: $font-size-h2;
+    font-weight: $font-weight-h2;
 }
