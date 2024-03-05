@@ -7,12 +7,13 @@ footer{
     flex-direction: column;
     color: white;
 
-    img{
-        width: 139px;
-        height: 27px;
-        padding: 0px 1.42px 0px 0px;
-        gap: 10px;
-        fill: white
+    h4{
+        font-family: Shrikhand;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        color: white;
+        padding-bottom: 10px
     }
 
     p span{

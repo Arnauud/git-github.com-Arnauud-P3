@@ -137,12 +137,13 @@ footer {
   flex-direction: column;
   color: white;
 }
-.bottom-box img {
-  width: 139px;
-  height: 27px;
-  padding: 0px 1.42px 0px 0px;
-  gap: 10px;
-  fill: white;
+.bottom-box h4 {
+  font-family: Shrikhand;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 10px;
 }
 .bottom-box p span {
   font-weight: 500;
@@ -157,7 +158,6 @@ footer {
 }
 .vendors h3 {
   padding-top: 60px;
-  margin-bottom: 35px;
   font-size: 24px;
   font-weight: 700;
   padding-left: 23px;
@@ -177,6 +177,20 @@ footer {
   border-top-right-radius: 25px;
   object-fit: cover;
   width: 100%;
+}
+.vendors article .label {
+  display: flex;
+  width: 80px;
+  height: 29px;
+  background-color: #99E2D0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #008766;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 45px;
+  left: 200px;
 }
 .vendors article .vendor-text {
   display: flex;
@@ -206,6 +220,8 @@ footer {
 .vendors article .vendor-text .vendor-favorite i {
   width: 22px;
   height: 21px;
+  position: absolute;
+  right: 30px;
 }
 
 /**** Header Section ****/
