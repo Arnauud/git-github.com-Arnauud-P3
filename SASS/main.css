@@ -169,6 +169,8 @@ footer {
   margin-bottom: 27px;
 }
 .vendors article .vendor-pic {
+  position: relative;
+  display: inline-block;
   width: 90%;
 }
 .vendors article .vendor-pic img {
@@ -189,11 +191,12 @@ footer {
   color: #008766;
   align-items: center;
   justify-content: center;
-  position: relative;
-  top: 45px;
-  left: 200px;
+  position: absolute;
+  top: 10%;
+  right: 8%;
 }
 .vendors article .vendor-text {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -205,24 +208,24 @@ footer {
 .vendors article .vendor-text .vendor-title {
   font-size: 18px;
   font-weight: 700;
-  padding: 5px 5px;
+  padding: 14px 0px 0px 10px;
 }
 .vendors article .vendor-text .vendor-description {
   font-size: 17px;
   font-weight: 300;
-  padding: 5px 5px;
+  padding-left: 10px;
 }
-.vendors article .vendor-text .vendor-favorite {
+.vendors article .vendor-text .vendor-favorite, .vendors article .vendor-text i {
   display: flex;
   flex-direction: row;
   background: white;
   border: none;
-}
-.vendors article .vendor-text .vendor-favorite i {
-  width: 22px;
-  height: 21px;
   position: absolute;
-  right: 30px;
+  right: 7%;
+  top: 35%;
+}
+.vendors article .vendor-text .vendor-favorite :active, .vendors article .vendor-text i :active {
+  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
 /**** Header Section ****/
