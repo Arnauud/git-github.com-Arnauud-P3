@@ -175,7 +175,8 @@ footer {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .vendors article .vendor-text {
