@@ -180,13 +180,6 @@ footer {
   background: #F6F6F6;
   margin: 20px 0 20px 0;
 }
-.vendors .fa-solid {
-  color: #9356DC;
-  z-index: -1;
-}
-.vendors .fa-solid:hover {
-  z-index: 0;
-}
 .vendors h3 {
   padding-top: 60px;
   font-size: 24px;
