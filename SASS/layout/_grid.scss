@@ -1,7 +1,16 @@
+
+
 /** Restaurant Display **/
 .vendors{
     background: #F6F6F6;
     margin: 20px 0 20px 0;
+    .fa-solid {
+        color: #9356DC;
+        z-index: -1;
+        &:hover{
+            z-index: 0;
+        }
+    }
     h3{
         padding-top:60px;
         font-size: 24px;
@@ -16,7 +25,8 @@
         .vendor-pic{
             position: relative;
             display: inline-block;
-            width: 90%; 
+            width: 90%;
+            
             img{
             height: 176px;
             border-top-left-radius: 25px;
@@ -70,10 +80,8 @@
                 border:none;
                 position: absolute;
                 right: 7%;
-                top: 35%;
-                :hover{
-                    color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-                }
+                top: 25%;
+                font-size: 24px;
             }
         }
     }
