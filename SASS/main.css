@@ -242,11 +242,14 @@ footer {
 .vendors article .vendor-text .vendor-favorite {
   display: flex;
   flex-direction: row;
-  background: white;
+  background: url("./assets/images/icon/statusempty.png");
   border: none;
   position: absolute;
   right: 6%;
   top: 25%;
+}
+.vendors article .vendor-text .vendor-favorite .empty-heart:hover {
+  z-index: -1;
 }
 
 /**** Header Section ****/
