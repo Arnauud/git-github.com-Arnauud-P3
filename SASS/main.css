@@ -242,10 +242,12 @@ footer {
   position: relative;
   cursor: pointer;
   border: none;
+  bottom: 45%;
+  left: 87%;
 }
 .vendors article .vendor-text .vendor-favorite .fa-heart {
   position: absolute;
-  font: size 34px;
+  font-size: 34px;
 }
 .vendors article .vendor-text .vendor-favorite .fa-heart:hover {
   color: #FF79DA;
