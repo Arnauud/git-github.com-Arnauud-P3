@@ -201,8 +201,7 @@ footer {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .vendors article .label {
@@ -248,10 +247,6 @@ footer {
   right: 6%;
   top: 25%;
 }
-.vendors article .vendor-text .vendor-favorite .empty-heart:hover {
-  z-index: -1;
-}
-
 /**** Header Section ****/
 header {
   display: flex;
