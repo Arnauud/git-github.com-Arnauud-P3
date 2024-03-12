@@ -239,13 +239,20 @@ footer {
   padding-left: 10px;
 }
 .vendors article .vendor-text .vendor-favorite {
-  display: flex;
-  flex-direction: row;
-  background: url("./assets/images/icon/statusempty.png");
+  position: relative;
+  cursor: pointer;
   border: none;
+}
+.vendors article .vendor-text .vendor-favorite .fa-heart {
   position: absolute;
-  right: 6%;
-  top: 25%;
+  font: size 34px;
+}
+.vendors article .vendor-text .vendor-favorite .fa-heart:hover {
+  color: #FF79DA;
+  transform: scale(1.1);
+}
+.vendors article .vendor-text .vendor-favorite .fa-heart:active {
+  color: blue;
 }
 /**** Header Section ****/
 header {

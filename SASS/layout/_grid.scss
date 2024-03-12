@@ -51,44 +51,53 @@
                 right: 8%;
             }        
         
-        .vendor-text {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            width: 90%;
-            height: 75px;
-            background-color: white;
-            border-bottom-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-            
-            .vendor-title {
-                font-size: 18px;
-                font-weight: 700;
-                padding: 14px 0px 0px 10px;
-            }
-
-            .vendor-description {
-                font-size: 17px;
-                font-weight: 300;
-                padding-left: 10px;
-            }
-            
-            .vendor-favorite {
+            .vendor-text {
+                position: relative;
                 display: flex;
-                flex-direction: row;
-                background: url('./assets/images/icon/statusempty.png');
-                border:none;
-                position: absolute;
-                right: 6%;
-                top: 25%;
-                
-                .empty-heart{
-                &:hover{
-                  
-
+                flex-direction: column;
+                width: 90%;
+                height: 75px;
+                background-color: white;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+              
+                .vendor-title {
+                  font-size: 18px;
+                  font-weight: 700;
+                  padding: 14px 0px 0px 10px;
                 }
-            }
+              
+                .vendor-description {
+                  font-size: 17px;
+                  font-weight: 300;
+                  padding-left: 10px;
+                }
+              
+                .vendor-favorite {
+                  position: relative;
+                  cursor: pointer;
+                  border:none;
+                  
+                    .fa-heart{
+                      position: absolute;
+                      font: size 34px;
+
+              
+                    &:hover{
+                      color:#FF79DA;
+                      transform:scale(1.1);
+                     }
+                      &:active{
+                        color:blue; //to see how it can work
+            
+                      }
+                      :not(:active){
+               
+                      }
+              
+                  }
+                }
+              }
             }
         }
-    }
-}
+ 
