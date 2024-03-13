@@ -1,3 +1,5 @@
+@import '../abstracts/mixins';
+
 footer{
     background-color: #353535;
 }
@@ -6,19 +8,27 @@ footer{
     padding: 22px 25px 22px 25px;
     flex-direction: column;
     color: white;
-
-    h4{
-        font-family: Shrikhand;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 400;
-        color: white;
-        padding-bottom: 10px
+    @include tablette {
+        flex-direction: reverse;
     }
 
-    p span{
-        font-weight: 500;
+
+    p, span{
+        font-family: Roboto;
         font-size: 16px;
-        margin-top: 10px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        padding-top: 10px;
+        @include tablette {
+            
     }
+}
+    i{
+        padding-right: 6px;
+    }
+    @include tablette {
+        flex-direction: row-reverse;
+
+    }
+
 }

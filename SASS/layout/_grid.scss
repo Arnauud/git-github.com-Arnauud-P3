@@ -85,7 +85,7 @@
                   
                     .fa-heart{
                       position: absolute;
-                      font-size: 34px;
+                      font-size: 28px;
 
               
                     &:hover{
@@ -93,7 +93,7 @@
                       transform:scale(1.1);
                      }
                       &:active{
-                        color:blue; //to see how it can work
+                        color:#FF79DA;; //to see how it can work
             
                       }
                       :not(:active){
