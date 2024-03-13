@@ -7,8 +7,9 @@
     margin: 20px 0 20px 0;
     @include tablette{
       display:grid;
+      grid-template-rows: 50% 50%;
       grid-template-columns: 50% 50%;
-      grid-template-rows: 100% 50%;
+
     }
 
     h3{
@@ -16,12 +17,14 @@
         font-size: 24px;
         font-weight: 700;
         padding-left: 23px;
+
     }
     article{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 27px;
+
 
         .vendor-pic{
             position: relative;
