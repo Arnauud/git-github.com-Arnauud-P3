@@ -253,7 +253,7 @@ footer {
   color: #FF79DA;
   transform: scale(1.1);
 }
-.vendors article .vendor-text .vendor-favorite .fa-heart:active {
+.vendors article .vendor-text .vendor-favorite .fa-heart:focus {
   color: blue;
 }
 /**** Header Section ****/
