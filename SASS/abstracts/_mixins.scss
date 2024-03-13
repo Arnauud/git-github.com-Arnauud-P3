@@ -1,8 +1,14 @@
+@import '../abstracts/variables';
 
 
-// h3{
-//     padding-top:60px;
-//     margin-bottom:35px;
-//     font-size: 24px;
-//     font-weight: 700;
-// }
+@mixin tablette {
+    @media only screen and (min-width: map-get($breakpoint, 'md')) and (max-width: map-get($breakpoint, 'xl')){
+    @content;
+    } 
+}
+
+@mixin large {
+    @media only screen and (min-width: map-get($breakpoint, 'xl')) and (max-width: 4200px){
+    @content;
+    } 
+}

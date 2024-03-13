@@ -1,17 +1,16 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
 
-
-/** Restaurant Display **/
+/******** Restaurant Display ********/
 .vendors{
     background: #F6F6F6;
     margin: 20px 0 20px 0;
-    // .fa-solid {
-    //     color: #9356DC;
-    //     z-index: -1;
-    //     &:hover{
-    //         z-index: 0;
-    //     }
+    @include tablette{
+      display:grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100% 50%;
+    }
 
-    // }
     h3{
         padding-top:60px;
         font-size: 24px;
@@ -23,6 +22,7 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 27px;
+
         .vendor-pic{
             position: relative;
             display: inline-block;
@@ -102,4 +102,3 @@
               }
             }
         }
- 

@@ -11,11 +11,6 @@ $fifth-color: #89C8FA;
 $six-color:#003A68;
 
 
-//Media Queries
-$breakpoint-mobile: 375px;
-$breakpoint-tablette: 768px;
-$breakpoint-desktop: 1440px;
-
 // Mobile font
 $font-size-title: 24px;
 $font-weight-title: 700;
@@ -23,5 +18,13 @@ $font-size-h2: 18px;
 $font-weight-h2: 300;
 
 
-// Heart Variable
-$emptyheart:"assets/images/icon/statusempty.png"
+//Media Queries Screen Size
+$breakpoint : (
+    'xs': 0,
+    'sm': 320px,
+    'md': 767px,
+    'lg': 1023px,
+    'xl': 1439px,
+);
+
+

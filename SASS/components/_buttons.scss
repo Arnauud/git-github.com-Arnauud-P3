@@ -1,3 +1,5 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
 
 /**** Exploration section *****/
 .btn-explore {
@@ -15,7 +17,10 @@
             }
         }
 
-/**** Function buttons ****/
+
+// @media only screen and (min-width: 320px) and (max-width: 999.5px) {        
+
+    /**** Function buttons ****/
 .filter {
     display: flex;
     flex-direction: column;
@@ -31,6 +36,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    @include tablette { //how to add the large mixin to this one as well?
+        background-color: blue;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }    
 
         .btn-f {
             position:relative;
@@ -77,10 +90,13 @@
 
 
 
-    
-            
+// @media only screen and (min-width: 999px) and (max-width: 3999.5px) {    
 
-// /**** Filter buttons ****/
-
-
-/**** Cirle ****/
+//     .button-fonction{
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: center;
+//         flex-direction: row;
+//         align-content: center;
+//     }
+// }
