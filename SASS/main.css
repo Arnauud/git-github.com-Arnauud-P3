@@ -173,6 +173,17 @@ h5 {
   color: #9356DC;
 }
 
+.footer-logo {
+  background-color: white;
+  width: 100px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1439px) {
+  .footer-logo {
+    order: 2;
+    margin-left: 150px;
+  }
+}
+
 footer {
   background-color: #353535;
 }
@@ -183,9 +194,22 @@ footer {
   flex-direction: column;
   color: white;
 }
+.bottom-box .footer-links, .bottom-box .footer-legal-contact {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 767px) and (max-width: 1439px) {
+  .bottom-box .footer-links, .bottom-box .footer-legal-contact {
+    flex-direction: row;
+  }
+}
 @media only screen and (min-width: 767px) and (max-width: 1439px) {
   .bottom-box {
-    flex-direction: reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 90px;
+    padding-bottom: 0;
   }
 }
 .bottom-box p, .bottom-box span {
@@ -199,15 +223,22 @@ footer {
   padding-right: 6px;
 }
 @media only screen and (min-width: 767px) and (max-width: 1439px) {
-  .bottom-box {
-    flex-direction: row-reverse;
+  .bottom-box .footer-links, .bottom-box .footer-legal-contact {
+    margin: 20px;
+  }
+  .bottom-box .footer-links span, .bottom-box .footer-legal-contact span {
+    padding-right: 20px;
+  }
+  .bottom-box .footer-legal-contact span {
+    font-weight: 400;
   }
 }
 
 /******** Restaurant Display ********/
 .vendors {
   background: #F6F6F6;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 0 0;
+  padding-bottom: 20px;
 }
 @media only screen and (min-width: 767px) and (max-width: 1439px) {
   .vendors {
@@ -237,7 +268,8 @@ footer {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .vendors article .label {

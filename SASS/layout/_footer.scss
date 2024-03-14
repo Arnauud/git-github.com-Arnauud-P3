@@ -1,5 +1,15 @@
 @import '../abstracts/mixins';
 
+.footer-logo {
+    background-color: white;
+    width: 100px;
+
+    @include tablette {
+        order: 2;
+        margin-left: 150px;
+    }
+}
+
 footer{
     background-color: #353535;
 }
@@ -8,10 +18,22 @@ footer{
     padding: 22px 25px 22px 25px;
     flex-direction: column;
     color: white;
-    @include tablette {
-        flex-direction: reverse;
-    }
 
+    .footer-links, .footer-legal-contact{
+    display: flex;
+    flex-direction: column;
+    @include tablette {
+        flex-direction: row;
+    }
+}
+    
+    @include tablette {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        height: 90px;
+        padding-bottom: 0;        
+    }
 
     p, span{
         font-family: Roboto;
@@ -19,16 +41,20 @@ footer{
         font-weight: 500;
         letter-spacing: 0em;
         padding-top: 10px;
-        @include tablette {
-            
-    }
-}
+        }
     i{
         padding-right: 6px;
     }
     @include tablette {
-        flex-direction: row-reverse;
+        .footer-links, .footer-legal-contact{
+            margin: 20px;
 
-    }
-
+            span{
+                padding-right: 20px;
+            }
+        }
+        .footer-legal-contact span{
+            font-weight: 400;
+        }
+    } 
 }
