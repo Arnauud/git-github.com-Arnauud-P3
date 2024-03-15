@@ -1,0 +1,97 @@
+.menu-picture img {
+    width: 100%;
+}
+
+.menu-details{
+    background:#F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    padding-top: 40px;
+
+}
+
+.menu-title{
+    display:flex;
+    position: relative;
+
+    h1{
+
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    }
+    .vendor-favorite {
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 87%;
+        bottom: 24%;
+        cursor: pointer;
+
+        &:hover .fa-regular{
+          color: #9356DC;
+          
+        }
+
+        &:hover .heart-filled{
+            color:transparent;
+            background-image: linear-gradient(#9356DC, #FF79DA);
+            background-clip: text;
+            -webkit-background-clip: text;
+            animation-duration: 0.5s;
+            animation-name: heartCheck;
+        }
+        .heart-filled {
+            color: #9256dc00;
+        }
+        i {
+            position: absolute;
+            font-size: 25px;
+        }
+    }
+}
+
+h2{
+    display: flex;
+    margin-top: 30px;
+}
+
+.starters, .main-course, .desserts{
+    display: flex;
+    flex-direction: column; 
+    .menu-select {
+        width: 320px;
+        height: 69px;
+        border-radius: 15.04px;
+        box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+        border: none;
+        background: white;
+        text-align: left;
+        position: relative;
+        margin-top: 12px;
+      .menu-info-price {
+        position: absolute;
+        right: 5%;
+        bottom: 30%;
+        }
+      }
+    }
+    .order {
+        height: 50px;
+        border-radius: 25px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+        linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        color: white;
+        width: 218px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        border:none;
+            &:hover{
+                background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+                }
+            }
