@@ -329,14 +329,14 @@ footer {
   font-size: 28px;
   font-style: italic;
   font-weight: 400;
-  text-align: left;
+  position: relative;
+  right: 25%;
 }
 .menu-title .vendor-favorite {
   display: flex;
   align-items: center;
   position: relative;
-  left: 87%;
-  bottom: 24%;
+  left: 10%;
   cursor: pointer;
 }
 .menu-title .vendor-favorite:hover .fa-regular {
