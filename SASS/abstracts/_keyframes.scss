@@ -1,0 +1,12 @@
+// Animations //
+//// Menu selection - Check mark ////
+@keyframes fadeAway {
+    0% {
+  transform: translateX(-30%);
+    }
+    100% {
+  transform: translateX();
+    }
+  }
+  
+  

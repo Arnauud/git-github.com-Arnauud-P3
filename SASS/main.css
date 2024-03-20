@@ -11,6 +11,22 @@
   }
 }
 /*** Check mark order menu ***/
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -157,6 +173,14 @@ h5 {
   }
 }
 /*** Check mark order menu ***/
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
 /**** Exploration section *****/
 .btn-explore {
   height: 50px;
@@ -245,6 +269,14 @@ h5 {
   }
 }
 /*** Check mark order menu ***/
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
 .footer-logo {
   background-color: white;
   width: 100px;
@@ -306,6 +338,34 @@ footer {
   }
 }
 
+/*** Heart Animation ***/
+@keyframes heartCheck {
+  from {
+    transform: scaleX(0);
+    opacity: 0%;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 100%;
+  }
+}
+/*** Check mark order menu ***/
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
 .menu-picture img {
   width: 100%;
 }
@@ -398,6 +458,52 @@ h2 {
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
+.menu-select {
+  width: 320px;
+  height: 69px;
+  border-radius: 15.04px;
+  box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
+  border: none;
+  background: white;
+  text-align: left;
+  position: relative;
+  margin-top: 46px;
+}
+.menu-select .check-mark {
+  display: none;
+}
+.menu-select .check-mark i {
+  display: none;
+}
+.menu-select:hover .check-mark {
+  display: none;
+  width: 59px;
+  height: 69px;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
+  border: none;
+  background: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  animation: fadeAway 500ms ease-out forwards;
+}
+.menu-select:hover .check-mark i {
+  display: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #99E2D0;
+  position: absolute;
+}
+
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -422,6 +528,14 @@ h2 {
   }
 }
 /*** Check mark order menu ***/
+@keyframes fadeAway {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX();
+  }
+}
 /******** Restaurant Display ********/
 .vendors {
   background: #F6F6F6;
@@ -456,8 +570,7 @@ h2 {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .vendors article .label {

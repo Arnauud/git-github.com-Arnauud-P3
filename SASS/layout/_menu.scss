@@ -1,3 +1,6 @@
+@import '../abstracts/mixins';
+@import '../abstracts/keyframes';
+
 .menu-picture img {
     width: 100%;
 }
@@ -96,3 +99,24 @@ h2{
                 background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
                 }
             }
+
+.menu-select { //what to appear when slight reduction happen
+    width: 320px;
+    height: 69px;
+    border-radius: 15.04px;
+    box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
+    border: none;
+    background: white;
+    text-align: left;
+    position: relative;
+    margin-top: 46px;
+    .check-mark {
+        display: none;
+        i {
+        display: none;
+        }
+    }
+    &:hover{
+        @include check-M;
+    }
+}
