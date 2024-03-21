@@ -19,12 +19,32 @@
     transform: translateX(0%);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
   }
   100% {
     transform: translateX(0%);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 /*** Heart Animation ***/
@@ -181,6 +201,16 @@ h5 {
     transform: translateX(0%);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /**** Exploration section *****/
 .btn-explore {
   height: 50px;
@@ -277,6 +307,16 @@ h5 {
     transform: translateX(0%);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .footer-logo {
   background-color: white;
   width: 100px;
@@ -358,6 +398,16 @@ footer {
     transform: translateX(0%);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
@@ -366,6 +416,37 @@ footer {
     transform: translateX(0%);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu-select {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.menu-select:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+
+.menu-select:nth-of-type(2) {
+  animation-delay: 1s;
+}
+
+.menu-select:nth-of-type(3) {
+  animation-delay: 1.5s;
+}
+
+.menu-select:nth-of-type(4) {
+  animation-delay: 2s;
+}
+
 .menu-picture img {
   width: 100%;
 }
@@ -536,6 +617,16 @@ h2 {
     transform: translateX(0%);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /******** Restaurant Display ********/
 .vendors {
   background: #F6F6F6;
@@ -639,6 +730,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 header #logo-header {
   justify-content: center;
@@ -658,4 +750,11 @@ header .location {
 }
 header .fa-solid {
   padding-right: 10px;
+}
+header #return-home {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 35%;
+  left: 1%;
 }/*# sourceMappingURL=main.css.map */

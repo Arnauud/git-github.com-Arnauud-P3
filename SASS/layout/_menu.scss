@@ -1,6 +1,19 @@
 @import '../abstracts/mixins';
 @import '../abstracts/keyframes';
 
+.menu-select {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  
+  @for $i from 1 through 4 {
+    $delay: 0.5s * $i;
+    .menu-select:nth-of-type(#{$i}) {
+      animation-delay: $delay;
+    }
+  }
+
 .menu-picture img {
     width: 100%;
 }
@@ -120,3 +133,4 @@ h2{
         @include check-M;
     }
 }
+
