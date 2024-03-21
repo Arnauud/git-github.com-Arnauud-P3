@@ -13,18 +13,18 @@
 /*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 /*** Heart Animation ***/
@@ -175,10 +175,10 @@ h5 {
 /*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 /**** Exploration section *****/
@@ -271,10 +271,10 @@ h5 {
 /*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 .footer-logo {
@@ -352,18 +352,18 @@ footer {
 /*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 .menu-picture img {
@@ -530,10 +530,10 @@ h2 {
 /*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(30%);
   }
   100% {
-    transform: translateX();
+    transform: translateX(0%);
   }
 }
 /******** Restaurant Display ********/
