@@ -6,6 +6,9 @@
     background: #F6F6F6;
     margin: 20px 0 0 0;
     padding-bottom: 20px;
+    .vendor-link{
+        text-decoration: none;
+    }
     @include tablette{
       display:grid;
       grid-template-rows: 50% 50%;

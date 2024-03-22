@@ -342,6 +342,11 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.bottom-box .footer-links a, .bottom-box .footer-legal-contact a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+}
 @media only screen and (min-width: 767px) and (max-width: 1439px) {
   .bottom-box .footer-links, .bottom-box .footer-legal-contact {
     flex-direction: row;
@@ -635,6 +640,9 @@ h2 {
   background: #F6F6F6;
   margin: 20px 0 0 0;
   padding-bottom: 20px;
+}
+.vendors .vendor-link {
+  text-decoration: none;
 }
 @media only screen and (min-width: 767px) and (max-width: 1439px) {
   .vendors {

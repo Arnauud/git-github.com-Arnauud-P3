@@ -22,6 +22,11 @@ footer{
     .footer-links, .footer-legal-contact{
     display: flex;
     flex-direction: column;
+        a{
+            padding-top: 10px;
+            text-decoration: none;
+            color: white;
+        }
     @include tablette {
         flex-direction: row;
     }
