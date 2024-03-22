@@ -355,6 +355,9 @@ footer {
     height: 90px;
     padding-bottom: 0;
   }
+  .bottom-box h5 {
+    order: 1;
+  }
 }
 .bottom-box p, .bottom-box span {
   font-family: Roboto;
@@ -373,7 +376,7 @@ footer {
   .bottom-box .footer-links span, .bottom-box .footer-legal-contact span {
     padding-right: 20px;
   }
-  .bottom-box .footer-legal-contact span {
+  .bottom-box .footer-legal-contact, .bottom-box span {
     font-weight: 400;
   }
 }
