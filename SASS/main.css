@@ -169,6 +169,21 @@ h5 {
   line-height: 26px;
 }
 
+.menu-details h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 9px;
+}
+.menu-details h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%; /* Underline starts from the middle */
+  width: 10%; /* Underline covers half of the text */
+  height: 2px; /* Height of the underline */
+  background-color: #99E2D0; /* Color of the underline */
+}
+
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -468,6 +483,12 @@ footer {
   border-top-right-radius: 45px;
   padding-top: 40px;
 }
+@media only screen and (min-width: 1439px) and (max-width: 4200px) {
+  .menu-details {
+    width: 90%;
+    align-items: center;
+  }
+}
 
 .menu-title {
   display: flex;
@@ -525,46 +546,20 @@ h2 {
   background: white;
   text-align: left;
   position: relative;
-  margin-top: 12px;
+  margin-top: 38px;
+}
+.starters .menu-select .check-mark, .main-course .menu-select .check-mark, .desserts .menu-select .check-mark {
+  display: none;
+}
+.starters .menu-select .check-mark i, .main-course .menu-select .check-mark i, .desserts .menu-select .check-mark i {
+  display: none;
 }
 .starters .menu-select .menu-info-price, .main-course .menu-select .menu-info-price, .desserts .menu-select .menu-info-price {
   position: absolute;
   right: 5%;
   bottom: 30%;
 }
-
-.order {
-  height: 50px;
-  border-radius: 25px;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-  color: white;
-  width: 218px;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  border: none;
-}
-.order:hover {
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-}
-
-.menu-select {
-  width: 320px;
-  height: 69px;
-  border-radius: 15.04px;
-  box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
-  border: none;
-  background: white;
-  text-align: left;
-  position: relative;
-  margin-top: 46px;
-}
-.menu-select .check-mark {
-  display: none;
-}
-.menu-select .check-mark i {
-  display: none;
-}
-.menu-select:hover .check-mark {
+.starters .menu-select:hover .check-mark, .main-course .menu-select:hover .check-mark, .desserts .menu-select:hover .check-mark {
   display: none;
   width: 59px;
   height: 69px;
@@ -580,7 +575,7 @@ h2 {
   right: 0%;
   animation: fadeAway 500ms ease-out forwards;
 }
-.menu-select:hover .check-mark i {
+.starters .menu-select:hover .check-mark i, .main-course .menu-select:hover .check-mark i, .desserts .menu-select:hover .check-mark i {
   display: none;
   border-radius: 50%;
   width: 20px;
@@ -591,6 +586,25 @@ h2 {
   align-items: center;
   color: #99E2D0;
   position: absolute;
+}
+@media only screen and (min-width: 1439px) and (max-width: 4200px) {
+  .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
+    width: 634px;
+  }
+}
+
+.order {
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  color: white;
+  width: 218px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border: none;
+}
+.order:hover {
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
 /*** Heart Animation ***/

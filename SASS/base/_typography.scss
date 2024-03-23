@@ -43,3 +43,21 @@ h5 {
     font-weight: 400;
     line-height: 26px;
 }
+
+.menu-details{
+h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 9px;
+  }
+  
+  h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0%; /* Underline starts from the middle */
+    width: 10%; /* Underline covers half of the text */
+    height: 2px; /* Height of the underline */
+    background-color: #99E2D0; /* Color of the underline */
+  }
+}
