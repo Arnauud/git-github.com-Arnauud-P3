@@ -554,7 +554,15 @@ h2 {
 .starters .menu-select .check-mark i, .main-course .menu-select .check-mark i, .desserts .menu-select .check-mark i {
   display: none;
 }
-.starters .menu-select .menu-info-price, .main-course .menu-select .menu-info-price, .desserts .menu-select .menu-info-price {
+.starters .menu-select h3, .main-course .menu-select h3, .desserts .menu-select h3 {
+  font-size: large;
+}
+.starters .menu-select p, .main-course .menu-select p, .desserts .menu-select p {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.starters .menu-select span, .main-course .menu-select span, .desserts .menu-select span {
   position: absolute;
   right: 5%;
   bottom: 30%;

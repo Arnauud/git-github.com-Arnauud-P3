@@ -100,7 +100,15 @@ h2{
             display: none;
             }
         }
-      .menu-info-price {
+        h3 {
+            font-size: large;
+        }
+        p {
+            position: absolute;
+            top: 50%;
+            left: 2%;
+        }
+      span {
         position: absolute;
         right: 5%;
         bottom: 30%;
