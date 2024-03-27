@@ -16,6 +16,7 @@
 
 .menu-picture img {
     width: 100%;
+    position: relative;
 }
 
 .menu-details{
@@ -26,9 +27,13 @@
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     padding-top: 40px;
+    position: absolute;
+    width: 100%;
+    top: 35%;
     @include large{
         width: 90%;
         align-items: center;
+        top:39%;
     }
 }
 

@@ -345,6 +345,9 @@ h5 {
 
 footer {
   background-color: #353535;
+  position: absolute;
+  width: 100%;
+  bottom: -29%;
 }
 
 .bottom-box {
@@ -472,6 +475,7 @@ footer {
 
 .menu-picture img {
   width: 100%;
+  position: relative;
 }
 
 .menu-details {
@@ -482,11 +486,15 @@ footer {
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   padding-top: 40px;
+  position: absolute;
+  width: 100%;
+  top: 35%;
 }
 @media only screen and (min-width: 1439px) and (max-width: 4200px) {
   .menu-details {
     width: 90%;
     align-items: center;
+    top: 39%;
   }
 }
 
