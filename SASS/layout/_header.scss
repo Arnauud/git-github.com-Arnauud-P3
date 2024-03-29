@@ -1,3 +1,5 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
 /**** Header Section ****/
 
 header {
@@ -5,6 +7,11 @@ header {
     flex-direction:column;
     align-items: center;
     position:relative;
+    background-color: white;
+    @include large {
+        z-index: 1;
+    }
+
     #logo-header{
         justify-content: center;
         width: 200px;

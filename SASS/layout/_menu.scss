@@ -17,6 +17,11 @@
 .menu-picture img {
     width: 100%;
     position: relative;
+@include large{
+    position: absolute;
+    top: -18%;
+    height: 956.14px;
+}
 }
 
 .menu-details{
@@ -29,7 +34,7 @@
     padding-top: 40px;
     position: absolute;
     width: 100%;
-    top: 35%;
+    top: 48%;
     @include large{
         width: 90%;
         align-items: center;
