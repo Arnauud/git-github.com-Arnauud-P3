@@ -120,6 +120,10 @@ h2{
         }
         &:hover{
             @include check-M;
+            span { 
+                animation: fadeAway 500ms ease-out forwards;
+                }
+            
         }
         @include large {
             width: 634px;

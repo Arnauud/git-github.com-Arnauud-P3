@@ -589,7 +589,7 @@ h2 {
   position: absolute;
   top: 0%;
   right: 0%;
-  animation: fadeAway 500ms ease-out forwards;
+  animation: fadeAway 250ms ease-out forwards;
 }
 .starters .menu-select:hover .check-mark i, .main-course .menu-select:hover .check-mark i, .desserts .menu-select:hover .check-mark i {
   display: none;
@@ -602,6 +602,9 @@ h2 {
   align-items: center;
   color: #99E2D0;
   position: absolute;
+}
+.starters .menu-select:hover span, .main-course .menu-select:hover span, .desserts .menu-select:hover span {
+  animation: fadeAway 500ms ease-out forwards;
 }
 @media only screen and (min-width: 1439px) and (max-width: 4200px) {
   .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
