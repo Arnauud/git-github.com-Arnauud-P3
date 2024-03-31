@@ -3,16 +3,16 @@
 
 
 @mixin tablette {
-    @media only screen and (min-width: map-get($breakpoint, 'md')) and (max-width: map-get($breakpoint, 'xl')){
+    @media only screen and (min-width: map-get($breakpoint, 'md')) and (max-width: map-get($breakpoint, 'xxl')){
     @content;
     } 
 }
 
-@mixin large {
-    @media only screen and (min-width: map-get($breakpoint, 'xl')) and (max-width: 4200px){
-    @content;
-    } 
-}
+// @mixin large {
+//     @media only screen and (min-width: map-get($breakpoint, 'xl')) and (max-width: 4200px){
+//     @content;
+//     } 
+// }
 
 @mixin check-M{
     .check-mark{

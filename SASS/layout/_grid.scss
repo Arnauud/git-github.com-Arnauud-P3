@@ -9,11 +9,10 @@
     .vendor-link{
         text-decoration: none;
     }
-    @include tablette{
-      display:grid;
+    @include tablette {
+      display: grid;
       grid-template-rows: 50% 50%;
       grid-template-columns: 50% 50%;
-
     }
 
     h3{

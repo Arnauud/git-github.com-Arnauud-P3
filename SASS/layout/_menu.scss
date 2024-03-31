@@ -17,10 +17,11 @@
 .menu-picture img {
     width: 100%;
     position: relative;
-@include large{
-    position: absolute;
-    top: -18%;
-    height: 956.14px;
+    height:275px;
+    object-fit: cover;
+@include tablette {
+    height: 383px;
+
 }
 }
 
@@ -34,11 +35,12 @@
     padding-top: 40px;
     position: absolute;
     width: 100%;
-    top: 48%;
-    @include large{
+    top: 19%;
+    @include tablette {
         width: 90%;
         align-items: center;
-        top:39%;
+        top:27%;
+        right:5%; 
     }
 }
 
@@ -130,7 +132,7 @@ h2{
                 }
             
         }
-        @include large {
+        @include tablette {
             width: 634px;
         }
       }

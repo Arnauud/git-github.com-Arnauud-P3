@@ -254,7 +254,7 @@ h5 {
   flex-direction: column;
   align-content: center;
 }
-@media only screen and (min-width: 767px) and (max-width: 1439px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .filter .button-fonction {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -335,6 +335,8 @@ h5 {
 footer {
   background-color: #353535;
   width: 100%;
+  position: absolute;
+  bottom: 2%;
 }
 
 .bottom-box {
@@ -352,12 +354,12 @@ footer {
   text-decoration: none;
   color: white;
 }
-@media only screen and (min-width: 767px) and (max-width: 1439px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .bottom-box .footer-links, .bottom-box .footer-legal-contact {
     flex-direction: row;
   }
 }
-@media only screen and (min-width: 767px) and (max-width: 1439px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .bottom-box {
     flex-direction: row;
     align-items: center;
@@ -379,7 +381,7 @@ footer {
 .bottom-box i {
   padding-right: 6px;
 }
-@media only screen and (min-width: 767px) and (max-width: 1439px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .bottom-box .footer-links, .bottom-box .footer-legal-contact {
     margin: 20px;
   }
@@ -463,12 +465,13 @@ footer {
 .menu-picture img {
   width: 100%;
   position: relative;
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-@media only screen and (min-width: 1439px) and (max-width: 4200px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-picture img {
-    position: absolute;
-    top: -18%;
-    height: 956.14px;
+    height: 383px;
   }
 }
 
@@ -482,13 +485,14 @@ footer {
   padding-top: 40px;
   position: absolute;
   width: 100%;
-  top: 48%;
+  top: 19%;
 }
-@media only screen and (min-width: 1439px) and (max-width: 4200px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-details {
     width: 90%;
     align-items: center;
-    top: 39%;
+    top: 27%;
+    right: 5%;
   }
 }
 
@@ -600,7 +604,7 @@ h2 {
 .starters .menu-select:hover span, .main-course .menu-select:hover span, .desserts .menu-select:hover span {
   animation: fadeAway 500ms ease-out forwards;
 }
-@media only screen and (min-width: 1439px) and (max-width: 4200px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
     width: 634px;
   }
@@ -671,7 +675,7 @@ h2 {
 .vendors .vendor-link {
   text-decoration: none;
 }
-@media only screen and (min-width: 767px) and (max-width: 1439px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   .vendors {
     display: grid;
     grid-template-rows: 50% 50%;
@@ -699,7 +703,8 @@ h2 {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .vendors article .label {
@@ -813,7 +818,7 @@ header {
   position: relative;
   background-color: white;
 }
-@media only screen and (min-width: 1439px) and (max-width: 4200px) {
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
   header {
     z-index: 1;
   }

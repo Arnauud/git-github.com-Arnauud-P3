@@ -8,7 +8,7 @@ header {
     align-items: center;
     position:relative;
     background-color: white;
-    @include large {
+    @include tablette {
         z-index: 1;
     }
 
