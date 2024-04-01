@@ -21,8 +21,7 @@
     object-fit: cover;
 @include tablette {
     height: 383px;
-
-}
+    }
 }
 
 .menu-details{
@@ -33,6 +32,7 @@
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     padding-top: 40px;
+    padding-bottom: 20px;
     position: absolute;
     width: 100%;
     top: 19%;
@@ -95,7 +95,11 @@ h2{
 
 .starters, .main-course, .desserts{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    margin-bottom: 2%;
+    @include tablette{
+        margin-bottom: 2%;
+    } 
     .menu-select {
         width: 320px;
         height: 69px;
@@ -105,7 +109,7 @@ h2{
         background: white;
         text-align: left;
         position: relative;
-        margin-top: 38px;
+        margin-top: 18px;
         .check-mark {
             display: none;
             i {
@@ -113,17 +117,23 @@ h2{
             }
         }
         h3 {
-            font-size: large;
+            font-size: 18px;
         }
         p {
             position: absolute;
             top: 50%;
-            left: 2%;
+            left: 3.3%;
+            font-size: 15.04px;
+            @include tablette{
+                left: 1.8%;
+            } 
         }
       span {
         position: absolute;
         right: 5%;
         bottom: 30%;
+        font-weight: 700;
+        font-size: 15.04px;
         }
         &:hover{
             @include check-M;

@@ -336,7 +336,21 @@ footer {
   background-color: #353535;
   width: 100%;
   position: absolute;
-  bottom: 2%;
+  bottom: 10%;
+}
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
+  footer {
+    bottom: 3%;
+  }
+}
+
+.main {
+  bottom: -21%;
+}
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
+  .main {
+    bottom: 23%;
+  }
 }
 
 .bottom-box {
@@ -483,6 +497,7 @@ footer {
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   padding-top: 40px;
+  padding-bottom: 20px;
   position: absolute;
   width: 100%;
   top: 19%;
@@ -542,6 +557,12 @@ h2 {
 .starters, .main-course, .desserts {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2%;
+}
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
+  .starters, .main-course, .desserts {
+    margin-bottom: 2%;
+  }
 }
 .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
   width: 320px;
@@ -552,7 +573,7 @@ h2 {
   background: white;
   text-align: left;
   position: relative;
-  margin-top: 38px;
+  margin-top: 18px;
 }
 .starters .menu-select .check-mark, .main-course .menu-select .check-mark, .desserts .menu-select .check-mark {
   display: none;
@@ -561,17 +582,25 @@ h2 {
   display: none;
 }
 .starters .menu-select h3, .main-course .menu-select h3, .desserts .menu-select h3 {
-  font-size: large;
+  font-size: 18px;
 }
 .starters .menu-select p, .main-course .menu-select p, .desserts .menu-select p {
   position: absolute;
   top: 50%;
-  left: 2%;
+  left: 3.3%;
+  font-size: 15.04px;
+}
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
+  .starters .menu-select p, .main-course .menu-select p, .desserts .menu-select p {
+    left: 1.8%;
+  }
 }
 .starters .menu-select span, .main-course .menu-select span, .desserts .menu-select span {
   position: absolute;
   right: 5%;
   bottom: 30%;
+  font-weight: 700;
+  font-size: 15.04px;
 }
 .starters .menu-select:hover .check-mark, .main-course .menu-select:hover .check-mark, .desserts .menu-select:hover .check-mark {
   display: none;

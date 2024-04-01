@@ -4,7 +4,16 @@ footer{
     background-color: #353535;
     width: 100%;
     position: absolute;
-    bottom: 2%;
+    bottom: 10%;
+    @include tablette {
+        bottom: 3%;
+        }
+}
+.main{
+    bottom:-21%;
+    @include tablette {
+    bottom: 23%;
+    }
 }
 .bottom-box{
     display: flex;
