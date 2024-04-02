@@ -353,6 +353,15 @@ footer {
   }
 }
 
+.menu-3-f {
+  bottom: 5%;
+}
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
+  .menu-3-f {
+    bottom: -1%;
+  }
+}
+
 .bottom-box {
   display: flex;
   padding: 22px 25px 22px 25px;
