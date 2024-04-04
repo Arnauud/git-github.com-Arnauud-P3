@@ -62,7 +62,6 @@
         align-items: center;
         position: relative;
         left: 10%;
-
         cursor: pointer;
 
         &:hover .fa-regular{
@@ -136,11 +135,17 @@ h2{
         font-size: 15.04px;
         }
         &:hover{
-            @include check-M;
-            span { 
-                animation: fadeAway 500ms ease-out forwards;
+            @include check-M;           
+            span {  // move the price over
+                right: 22%;
                 }
-            
+                p {
+                    width:261px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    padding-right: 100px;
+                }   
         }
         @include tablette {
             width: 634px;

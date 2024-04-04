@@ -489,8 +489,7 @@ footer {
   width: 100%;
   position: relative;
   height: 275px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-picture img {
@@ -640,7 +639,14 @@ h2 {
   position: absolute;
 }
 .starters .menu-select:hover span, .main-course .menu-select:hover span, .desserts .menu-select:hover span {
-  animation: fadeAway 500ms ease-out forwards;
+  right: 22%;
+}
+.starters .menu-select:hover p, .main-course .menu-select:hover p, .desserts .menu-select:hover p {
+  width: 261px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 100px;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
@@ -741,8 +747,7 @@ h2 {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .vendors article .label {

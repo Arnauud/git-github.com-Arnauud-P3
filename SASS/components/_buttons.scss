@@ -32,7 +32,7 @@
     justify-content: center;
     flex-direction: column;
     align-content: center;
-    @include tablette { //how to add the large mixin to this one as well?
+    @include tablette { 
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
