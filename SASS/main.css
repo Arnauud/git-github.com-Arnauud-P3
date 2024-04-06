@@ -350,7 +350,7 @@ footer {
 }
 
 .menu-3-f {
-  bottom: -59%;
+  bottom: 5%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-3-f {
@@ -493,7 +493,8 @@ footer {
   width: 100%;
   position: relative;
   height: 275px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-picture img {
@@ -751,7 +752,8 @@ h2 {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .vendors article .label {
