@@ -184,6 +184,14 @@ h5 {
   height: 2px; /* Height of the underline */
   background-color: #99E2D0; /* Color of the underline */
 }
+.menu-details h3 {
+  max-width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 23px;
+  padding: 10px;
+  margin-bottom: 0;
+}
 
 /*** Heart Animation ***/
 @keyframes heartCheck {
@@ -350,7 +358,7 @@ footer {
 }
 
 .menu-3-f {
-  bottom: 5%;
+  bottom: -57%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-3-f {
@@ -588,6 +596,11 @@ h2 {
   position: relative;
   margin-top: 18px;
 }
+@media only screen and (min-width: 767px) and (max-width: 4200px) {
+  .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
+    width: 634px;
+  }
+}
 .starters .menu-select .check-mark, .main-course .menu-select .check-mark, .desserts .menu-select .check-mark {
   display: none;
 }
@@ -598,20 +611,18 @@ h2 {
   font-size: 18px;
 }
 .starters .menu-select p, .main-course .menu-select p, .desserts .menu-select p {
-  position: absolute;
-  top: 50%;
-  left: 3.3%;
+  padding-left: 3.3%;
   font-size: 15.04px;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .starters .menu-select p, .main-course .menu-select p, .desserts .menu-select p {
-    left: 1.8%;
+    padding-left: 1.8%;
   }
 }
 .starters .menu-select span, .main-course .menu-select span, .desserts .menu-select span {
   position: absolute;
   right: 5%;
-  bottom: 30%;
+  bottom: 23%;
   font-weight: 700;
   font-size: 15.04px;
 }
@@ -646,16 +657,15 @@ h2 {
 .starters .menu-select:hover span, .main-course .menu-select:hover span, .desserts .menu-select:hover span {
   right: 22%;
 }
-.starters .menu-select:hover p, .main-course .menu-select:hover p, .desserts .menu-select:hover p {
-  width: 261px;
+.starters .menu-select:hover p, .starters .menu-select:hover h3, .main-course .menu-select:hover p, .main-course .menu-select:hover h3, .desserts .menu-select:hover p, .desserts .menu-select:hover h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-right: 100px;
+  padding-right: 35.3%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
-  .starters .menu-select, .main-course .menu-select, .desserts .menu-select {
-    width: 634px;
+  .starters .menu-select:hover span, .main-course .menu-select:hover span, .desserts .menu-select:hover span {
+    right: 13%;
   }
 }
 
