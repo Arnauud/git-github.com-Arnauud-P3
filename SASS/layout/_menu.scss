@@ -1,5 +1,8 @@
 @import '../abstracts/mixins';
 @import '../abstracts/keyframes';
+.menu {
+    position: relative;
+}
 
 .menu-select {
     opacity: 0;
@@ -14,13 +17,17 @@
     }
   }
 
-.menu-picture img {
+.menu-picture {
+position: relative;
+z-index: 0;
+ img {
     width: 100%;
     position: relative;
     height:275px;
     object-fit: cover;
 @include tablette {
     height: 383px;
+    }
     }
 }
 
@@ -35,11 +42,11 @@
     padding-bottom: 20px;
     position: absolute;
     width: 100%;
-    top: 19%;
+    top: 88%;
     @include tablette {
         width: 90%;
         align-items: center;
-        top:27%;
+        top:87%;
         right:5%; 
     }
 }

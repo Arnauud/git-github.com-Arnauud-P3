@@ -133,9 +133,10 @@ table {
   text-align: center;
 }
 .explore h1 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   margin-top: 30px;
+  width: 275px;
 }
 .explore h2 {
   font-size: 18px;
@@ -179,7 +180,7 @@ h5 {
   position: absolute;
   bottom: 0;
   left: 0%; /* Underline starts from the middle */
-  width: 10%; /* Underline covers half of the text */
+  width: 40px; /* Underline covers half of the text */
   height: 2px; /* Height of the underline */
   background-color: #99E2D0; /* Color of the underline */
 }
@@ -292,13 +293,8 @@ h5 {
   top: 25%;
   left: -5%;
 }
-.filter i:first-child {
-  color: white;
-}
-.filter i:nth-child(2) {
-  color: #7E7E7E;
-}
-.filter i:nth-child(2) :hover {
+
+.fa-store {
   color: #9356DC;
 }
 
@@ -336,29 +332,29 @@ footer {
   background-color: #353535;
   width: 100%;
   position: absolute;
-  bottom: 10%;
+  bottom: -52%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   footer {
-    bottom: 3%;
+    bottom: -56%;
   }
 }
 
 .main {
-  bottom: -21%;
+  bottom: -100%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .main {
-    bottom: 23%;
+    bottom: -33%;
   }
 }
 
 .menu-3-f {
-  bottom: 5%;
+  bottom: -59%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-3-f {
-    bottom: -1%;
+    bottom: -65%;
   }
 }
 
@@ -464,6 +460,10 @@ footer {
     transform: translateY(0);
   }
 }
+.menu {
+  position: relative;
+}
+
 .menu-select {
   opacity: 0;
   animation: fadeIn 0.5s ease forwards;
@@ -485,6 +485,10 @@ footer {
   animation-delay: 2s;
 }
 
+.menu-picture {
+  position: relative;
+  z-index: 0;
+}
 .menu-picture img {
   width: 100%;
   position: relative;
@@ -509,13 +513,13 @@ footer {
   padding-bottom: 20px;
   position: absolute;
   width: 100%;
-  top: 19%;
+  top: 88%;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-details {
     width: 90%;
     align-items: center;
-    top: 27%;
+    top: 87%;
     right: 5%;
   }
 }

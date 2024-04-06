@@ -69,14 +69,8 @@
             top: 25%;
             left: -5%;
         }
-                }   
-        i:first-child{
-            color: white;
-        }
-        i:nth-child(2){
-            color: #7E7E7E;
-            :hover{
-                color:#9356DC;
-            }
-        }
     }
+}
+        .fa-store{
+            color:#9356DC;
+        }

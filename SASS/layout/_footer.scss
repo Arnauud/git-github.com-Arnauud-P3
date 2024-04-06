@@ -4,22 +4,23 @@ footer{
     background-color: #353535;
     width: 100%;
     position: absolute;
-    bottom: 10%;
+    bottom: -52%;
     @include tablette {
-        bottom: 3%;
+        bottom: -56%;
         }
 }
+
 .main{
-    bottom:-21%;
+    bottom:-100%;
     @include tablette {
-    bottom: 23%;
+        bottom: -33%;
     }
 }
 
 .menu-3-f{
-    bottom:5%;
+    bottom:-59%;
     @include tablette {
-    bottom: -1%;
+        bottom: -65%;
     }
 }
 
