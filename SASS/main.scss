@@ -1,5 +1,5 @@
 /* is there not a better way to write this?*/ 
-@use './abstracts/function';
+@use './abstracts/loader';
 @use './abstracts/mixins';
 @use './abstracts/keyframes';
 @use './abstracts/variables';
@@ -14,9 +14,7 @@
 @use './layout/grid';
 @use './layout/header';
 @use './layout/sidebar';
-@use './pages/admin';
-@use './pages/home';
-@use './vendor/bootstrap';
+
 
 
 // Put header

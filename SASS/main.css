@@ -1,4 +1,41 @@
 /* is there not a better way to write this?*/
+#loader .boxes {
+  position: absolute;
+  z-index: 0;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 11px;
+  animation: spin 2.5s ease forwards;
+}
+#loader .boxes::before, #loader .boxes::after {
+  content: "";
+  width: 40%;
+  height: 40%;
+  display: block;
+  position: absolute;
+  border-radius: 9px;
+}
+#loader .boxes::before {
+  top: 3px;
+  left: 3px;
+  background: #2b6620;
+}
+#loader .boxes::after {
+  bottom: 3px;
+  right: 3px;
+  background: #204e66;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(135deg);
+    opacity: 100%;
+  }
+  to {
+    transform: rotate(495deg);
+    opacity: 0%;
+  }
+}
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -501,8 +538,7 @@ footer {
   width: 100%;
   position: relative;
   height: 275px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-picture img {
@@ -762,8 +798,7 @@ h2 {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .vendors article .label {
