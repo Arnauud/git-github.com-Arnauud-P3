@@ -3,27 +3,25 @@
 footer{
     background-color: #353535;
     width: 100%;
-    position: absolute;
-    bottom: -52%;
     @include tablette {
-        bottom: -56%;
-        }
 }
 
-.main{
-    bottom:-100%;
+&.menu-f{
+    position:absolute;
+        top: 136%;
     @include tablette {
-        bottom: -33%;
+        top: 145%;
     }
 }
 
-.menu-3-f{
-    bottom:-57%;
+&.menu-f3{
+    position:absolute;
+        top: 142%;
     @include tablette {
-        bottom: -65%;
+        top: 153%;
     }
 }
-
+}
 
 .bottom-box{
     display: flex;
