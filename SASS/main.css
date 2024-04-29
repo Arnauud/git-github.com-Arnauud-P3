@@ -46,34 +46,16 @@
     opacity: 0%;
   }
 }
-/*** Heart Animation ***/
-@keyframes heartCheck {
-  from {
-    transform: scaleX(0);
-    opacity: 0%;
-  }
-  to {
-    transform: scaleX(1);
-    opacity: 100%;
-  }
-}
 /*** Check mark order menu ***/
-@keyframes fadeAway {
-  0% {
-    transform: translateX(30%);
+/*** Heart Animation ***/
+@keyframes heartCheck {
+  from {
+    transform: scaleX(0);
+    opacity: 0%;
   }
-  100% {
-    transform: translateX(0%);
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+  to {
+    transform: scaleX(1);
+    opacity: 100%;
   }
 }
 @keyframes fadeAway {
@@ -103,6 +85,24 @@
   to {
     transform: scaleX(1);
     opacity: 100%;
+  }
+}
+@keyframes fadeAway {
+  0% {
+    transform: translateX(30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 /*** Check mark order menu ***/
@@ -160,17 +160,6 @@ table {
   border-spacing: 0;
 }
 
-/*** Heart Animation ***/
-@keyframes heartCheck {
-  from {
-    transform: scaleX(0);
-    opacity: 0%;
-  }
-  to {
-    transform: scaleX(1);
-    opacity: 100%;
-  }
-}
 /*** Check mark order menu ***/
 .explore {
   display: flex;
@@ -240,17 +229,7 @@ h5 {
   margin-bottom: 0;
 }
 
-/*** Heart Animation ***/
-@keyframes heartCheck {
-  from {
-    transform: scaleX(0);
-    opacity: 0%;
-  }
-  to {
-    transform: scaleX(1);
-    opacity: 100%;
-  }
-}
+/*** Check mark order menu ***/
 /*** Check mark order menu ***/
 /*** Heart Animation ***/
 @keyframes heartCheck {
@@ -263,7 +242,6 @@ h5 {
     opacity: 100%;
   }
 }
-/*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
@@ -353,6 +331,7 @@ h5 {
   color: #9356DC;
 }
 
+/*** Check mark order menu ***/
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -364,7 +343,6 @@ h5 {
     opacity: 100%;
   }
 }
-/*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
@@ -460,6 +438,7 @@ footer.menu-f3 {
   }
 }
 
+/*** Check mark order menu ***/
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -471,7 +450,6 @@ footer.menu-f3 {
     opacity: 100%;
   }
 }
-/*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
@@ -488,6 +466,17 @@ footer.menu-f3 {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+/*** Heart Animation ***/
+@keyframes heartCheck {
+  from {
+    transform: scaleX(0);
+    opacity: 0%;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 100%;
   }
 }
 @keyframes fadeAway {
@@ -541,8 +530,7 @@ footer.menu-f3 {
   width: 100%;
   position: relative;
   height: 275px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media only screen and (min-width: 767px) and (max-width: 4200px) {
   .menu-picture img {
@@ -723,17 +711,7 @@ h2 {
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
-/*** Heart Animation ***/
-@keyframes heartCheck {
-  from {
-    transform: scaleX(0);
-    opacity: 0%;
-  }
-  to {
-    transform: scaleX(1);
-    opacity: 100%;
-  }
-}
+/*** Check mark order menu ***/
 /*** Check mark order menu ***/
 /*** Heart Animation ***/
 @keyframes heartCheck {
@@ -746,7 +724,6 @@ h2 {
     opacity: 100%;
   }
 }
-/*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
@@ -802,8 +779,7 @@ h2 {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .vendors .vendor-card .label {
@@ -867,6 +843,7 @@ h2 {
   font-size: 25px;
 }
 
+/*** Check mark order menu ***/
 /*** Heart Animation ***/
 @keyframes heartCheck {
   from {
@@ -878,7 +855,6 @@ h2 {
     opacity: 100%;
   }
 }
-/*** Check mark order menu ***/
 @keyframes fadeAway {
   0% {
     transform: translateX(30%);
@@ -895,17 +871,6 @@ h2 {
   100% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-/*** Heart Animation ***/
-@keyframes heartCheck {
-  from {
-    transform: scaleX(0);
-    opacity: 0%;
-  }
-  to {
-    transform: scaleX(1);
-    opacity: 100%;
   }
 }
 /*** Check mark order menu ***/

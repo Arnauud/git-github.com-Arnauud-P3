@@ -1,4 +1,17 @@
 // Animations //
+
+/*** Heart Animation ***/
+@keyframes heartCheck { 
+  from {
+      transform: scaleX(0);
+      opacity: 0%;
+      }
+   to {
+      transform: scaleX(1);
+      opacity: 100%; 
+       }
+  } 
+
 //// Menu selection - Check mark ////
 @keyframes fadeAway {
     0% {
